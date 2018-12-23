@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-consumer-metadata
+
+server:
+  port: 9001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:password@127.0.0.1:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+info:
+  title: im a consumer
